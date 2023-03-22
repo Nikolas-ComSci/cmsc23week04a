@@ -1,3 +1,5 @@
+import 'package:alcala_03_trial/form_sample.dart';
+import 'package:alcala_03_trial/input_field_sample.dart';
 import 'package:flutter/material.dart';
 import 'button_sample.dart';
 
@@ -20,6 +22,7 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: [
             ButtonSample(),
+            FormSample()
           ],
         ),
       ),
